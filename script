@@ -1,0 +1,9 @@
+import pyautogui
+pyautogui.position(x,y)
+import time
+while True:
+  for item in range(0,100):
+    time.sleep(0.1)
+    pyautogui.click(x,y)
+  time.sleep(10)  
+  
